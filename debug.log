@@ -1,0 +1,1016 @@
+﻿2024-12-28 09:08:39 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2024-12-28 09:08:39 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-001625A134B9401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2024-12-28 09:08:39 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-001625A134B9401E
+)
+
+--------------------------------------------------
+2024-12-28 09:08:39 | 重定向到
+Data: udid.php?udid=00008110-001625A134B9401E&product=iPhone14%2C7&version=&device_name=&time=2024-12-28+09%3A08%3A39
+--------------------------------------------------
+2024-12-28 09:43:23 | 接收到POST数据
+--------------------------------------------------
+2024-12-28 09:43:23 | 未找到XML内容
+--------------------------------------------------
+2024-12-28 11:56:09 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2024-12-28 11:56:09 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-001625A134B9401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2024-12-28 11:56:09 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-001625A134B9401E
+)
+
+--------------------------------------------------
+2024-12-28 11:56:09 | 重定向到
+Data: udid.php?udid=00008110-001625A134B9401E&product=iPhone14%2C7&version=&device_name=&time=2024-12-28+11%3A56%3A09
+--------------------------------------------------
+2024-12-28 22:00:35 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2024-12-28 22:00:35 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone11,8</string>
+	<key>UDID</key>
+	<string>00008020-001C70A102E9002E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2024-12-28 22:00:35 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone11,8
+    [UDID] => 00008020-001C70A102E9002E
+)
+
+--------------------------------------------------
+2024-12-28 22:00:35 | 重定向到
+Data: udid.php?udid=00008020-001C70A102E9002E&product=iPhone11%2C8&version=&device_name=&time=2024-12-28+22%3A00%3A35
+--------------------------------------------------
+2025-01-08 17:51:56 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-01-08 17:51:56 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,1</string>
+	<key>UDID</key>
+	<string>00008130-001C45313AFA001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-01-08 17:51:56 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,1
+    [UDID] => 00008130-001C45313AFA001C
+)
+
+--------------------------------------------------
+2025-01-08 17:51:56 | 重定向到
+Data: udid.php?udid=00008130-001C45313AFA001C&product=iPhone16%2C1&version=&device_name=&time=2025-01-08+17%3A51%3A56
+--------------------------------------------------
+2025-01-14 20:59:12 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-01-14 20:59:12 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-001C28D83E68801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-01-14 20:59:12 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-001C28D83E68801C
+)
+
+--------------------------------------------------
+2025-01-14 20:59:12 | 重定向到
+Data: udid.php?udid=00008140-001C28D83E68801C&product=iPhone17%2C2&version=&device_name=&time=2025-01-14+20%3A59%3A12
+--------------------------------------------------
+2025-03-09 11:50:25 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-03-09 11:50:25 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-000609900EE3001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-03-09 11:50:25 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-000609900EE3001C
+)
+
+--------------------------------------------------
+2025-03-09 11:50:25 | 重定向到
+Data: udid.php?udid=00008140-000609900EE3001C&product=iPhone17%2C2&version=&device_name=&time=2025-03-09+11%3A50%3A25
+--------------------------------------------------
+2025-03-12 18:28:15 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-03-12 18:28:15 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-0009291821D2801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-03-12 18:28:15 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-0009291821D2801C
+)
+
+--------------------------------------------------
+2025-03-12 18:28:15 | 重定向到
+Data: udid.php?udid=00008140-0009291821D2801C&product=iPhone17%2C2&version=&device_name=&time=2025-03-12+18%3A28%3A15
+--------------------------------------------------
+2025-03-22 16:35:59 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-03-22 16:35:59 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone13,2</string>
+	<key>UDID</key>
+	<string>00008101-001E21062EBA001E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-03-22 16:35:59 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone13,2
+    [UDID] => 00008101-001E21062EBA001E
+)
+
+--------------------------------------------------
+2025-03-22 16:35:59 | 重定向到
+Data: udid.php?udid=00008101-001E21062EBA001E&product=iPhone13%2C2&version=&device_name=&time=2025-03-22+16%3A35%3A59
+--------------------------------------------------
+2025-03-23 19:46:06 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-03-23 19:46:06 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,5</string>
+	<key>UDID</key>
+	<string>00008110-00180D810C84801E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-03-23 19:46:06 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,5
+    [UDID] => 00008110-00180D810C84801E
+)
+
+--------------------------------------------------
+2025-03-23 19:46:06 | 重定向到
+Data: udid.php?udid=00008110-00180D810C84801E&product=iPhone14%2C5&version=&device_name=&time=2025-03-23+19%3A46%3A06
+--------------------------------------------------
+2025-03-23 19:46:49 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-03-23 19:46:49 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,5</string>
+	<key>UDID</key>
+	<string>00008110-00180D810C84801E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-03-23 19:46:49 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,5
+    [UDID] => 00008110-00180D810C84801E
+)
+
+--------------------------------------------------
+2025-03-23 19:46:49 | 重定向到
+Data: udid.php?udid=00008110-00180D810C84801E&product=iPhone14%2C5&version=&device_name=&time=2025-03-23+19%3A46%3A49
+--------------------------------------------------
+2025-04-10 22:54:12 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-10 22:54:12 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-001625A134B9401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-10 22:54:12 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-001625A134B9401E
+)
+
+--------------------------------------------------
+2025-04-10 22:54:12 | 重定向到
+Data: udid.php?udid=00008110-001625A134B9401E&product=iPhone14%2C7&version=&device_name=&time=2025-04-10+22%3A54%3A12
+--------------------------------------------------
+2025-04-10 22:55:50 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-10 22:55:50 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,1</string>
+	<key>UDID</key>
+	<string>00008130-001E69223651001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-10 22:55:50 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,1
+    [UDID] => 00008130-001E69223651001C
+)
+
+--------------------------------------------------
+2025-04-10 22:55:50 | 重定向到
+Data: udid.php?udid=00008130-001E69223651001C&product=iPhone16%2C1&version=&device_name=&time=2025-04-10+22%3A55%3A50
+--------------------------------------------------
+2025-04-12 17:07:38 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-12 17:07:38 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-001E4D3E1152801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-12 17:07:38 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-001E4D3E1152801C
+)
+
+--------------------------------------------------
+2025-04-12 17:07:38 | 重定向到
+Data: udid.php?udid=00008140-001E4D3E1152801C&product=iPhone17%2C2&version=&device_name=&time=2025-04-12+17%3A07%3A38
+--------------------------------------------------
+2025-04-18 13:31:01 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-18 13:31:01 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,1</string>
+	<key>UDID</key>
+	<string>00008140-0019054136E8801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-18 13:31:01 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,1
+    [UDID] => 00008140-0019054136E8801C
+)
+
+--------------------------------------------------
+2025-04-18 13:31:01 | 重定向到
+Data: udid.php?udid=00008140-0019054136E8801C&product=iPhone17%2C1&version=&device_name=&time=2025-04-18+13%3A31%3A01
+--------------------------------------------------
+2025-04-18 16:30:23 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-18 16:30:23 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,1</string>
+	<key>UDID</key>
+	<string>00008130-00020CC20CBA001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-18 16:30:23 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,1
+    [UDID] => 00008130-00020CC20CBA001C
+)
+
+--------------------------------------------------
+2025-04-18 16:30:23 | 重定向到
+Data: udid.php?udid=00008130-00020CC20CBA001C&product=iPhone16%2C1&version=&device_name=&time=2025-04-18+16%3A30%3A23
+--------------------------------------------------
+2025-04-19 09:08:52 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-19 09:08:52 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone11,6</string>
+	<key>UDID</key>
+	<string>00008020-001908A41408002E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-19 09:08:52 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone11,6
+    [UDID] => 00008020-001908A41408002E
+)
+
+--------------------------------------------------
+2025-04-19 09:08:52 | 重定向到
+Data: udid.php?udid=00008020-001908A41408002E&product=iPhone11%2C6&version=&device_name=&time=2025-04-19+09%3A08%3A52
+--------------------------------------------------
+2025-04-19 09:08:59 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-19 09:08:59 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-001625A134B9401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-19 09:08:59 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-001625A134B9401E
+)
+
+--------------------------------------------------
+2025-04-19 09:08:59 | 重定向到
+Data: udid.php?udid=00008110-001625A134B9401E&product=iPhone14%2C7&version=&device_name=&time=2025-04-19+09%3A08%3A59
+--------------------------------------------------
+2025-04-21 13:51:33 | 接收到POST数据
+--------------------------------------------------
+2025-04-21 13:51:33 | 未找到XML内容
+--------------------------------------------------
+2025-04-22 15:12:34 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-04-22 15:12:34 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,2</string>
+	<key>UDID</key>
+	<string>00008130-000005480C92001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-04-22 15:12:34 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,2
+    [UDID] => 00008130-000005480C92001C
+)
+
+--------------------------------------------------
+2025-04-22 15:12:34 | 重定向到
+Data: udid.php?udid=00008130-000005480C92001C&product=iPhone16%2C2&version=&device_name=&time=2025-04-22+15%3A12%3A34
+--------------------------------------------------
+2025-05-09 19:14:32 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-09 19:14:32 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,1</string>
+	<key>UDID</key>
+	<string>00008130-000A70A220FA8D3A</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-09 19:14:32 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,1
+    [UDID] => 00008130-000A70A220FA8D3A
+)
+
+--------------------------------------------------
+2025-05-09 19:14:32 | 重定向到
+Data: udid.php?udid=00008130-000A70A220FA8D3A&product=iPhone16%2C1&version=&device_name=&time=2025-05-09+19%3A14%3A32
+--------------------------------------------------
+2025-05-13 17:10:56 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-13 17:10:57 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone13,3</string>
+	<key>UDID</key>
+	<string>00008101-001A7C4A1187001E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-13 17:10:57 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone13,3
+    [UDID] => 00008101-001A7C4A1187001E
+)
+
+--------------------------------------------------
+2025-05-13 17:10:57 | 重定向到
+Data: udid.php?udid=00008101-001A7C4A1187001E&product=iPhone13%2C3&version=&device_name=&time=2025-05-13+17%3A10%3A57
+--------------------------------------------------
+2025-05-24 12:38:49 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-24 12:38:49 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone13,2</string>
+	<key>UDID</key>
+	<string>00008101-000C18A41E46001E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-24 12:38:49 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone13,2
+    [UDID] => 00008101-000C18A41E46001E
+)
+
+--------------------------------------------------
+2025-05-24 12:38:49 | 重定向到
+Data: udid.php?udid=00008101-000C18A41E46001E&product=iPhone13%2C2&version=&device_name=&time=2025-05-24+12%3A38%3A49
+--------------------------------------------------
+2025-05-24 18:56:03 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-24 18:56:03 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-000229C42660801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-24 18:56:03 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-000229C42660801C
+)
+
+--------------------------------------------------
+2025-05-24 18:56:03 | 重定向到
+Data: udid.php?udid=00008140-000229C42660801C&product=iPhone17%2C2&version=&device_name=&time=2025-05-24+18%3A56%3A03
+--------------------------------------------------
+2025-05-24 21:40:00 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-24 21:40:00 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-001625A134B9401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-24 21:40:00 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-001625A134B9401E
+)
+
+--------------------------------------------------
+2025-05-24 21:40:00 | 重定向到
+Data: udid.php?udid=00008110-001625A134B9401E&product=iPhone14%2C7&version=&device_name=&time=2025-05-24+21%3A40%3A00
+--------------------------------------------------
+2025-05-24 21:41:36 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-24 21:41:36 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone15,2</string>
+	<key>UDID</key>
+	<string>00008120-001179E11E6BC01E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-24 21:41:36 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone15,2
+    [UDID] => 00008120-001179E11E6BC01E
+)
+
+--------------------------------------------------
+2025-05-24 21:41:36 | 重定向到
+Data: udid.php?udid=00008120-001179E11E6BC01E&product=iPhone15%2C2&version=&device_name=&time=2025-05-24+21%3A41%3A36
+--------------------------------------------------
+2025-05-28 14:56:31 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-05-28 14:56:31 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,3</string>
+	<key>UDID</key>
+	<string>00008110-000C31840C85801E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-05-28 14:56:31 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,3
+    [UDID] => 00008110-000C31840C85801E
+)
+
+--------------------------------------------------
+2025-05-28 14:56:31 | 重定向到
+Data: udid.php?udid=00008110-000C31840C85801E&product=iPhone14%2C3&version=&device_name=&time=2025-05-28+14%3A56%3A31
+--------------------------------------------------
+2025-06-02 18:18:19 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-02 18:18:19 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone15,2</string>
+	<key>UDID</key>
+	<string>00008120-00042C5E1EB8C01E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-02 18:18:19 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone15,2
+    [UDID] => 00008120-00042C5E1EB8C01E
+)
+
+--------------------------------------------------
+2025-06-02 18:18:19 | 重定向到
+Data: udid.php?udid=00008120-00042C5E1EB8C01E&product=iPhone15%2C2&version=&device_name=&time=2025-06-02+18%3A18%3A19
+--------------------------------------------------
+2025-06-04 21:34:12 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-04 21:34:12 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,1</string>
+	<key>UDID</key>
+	<string>00008140-000A64361E12801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-04 21:34:12 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,1
+    [UDID] => 00008140-000A64361E12801C
+)
+
+--------------------------------------------------
+2025-06-04 21:34:12 | 重定向到
+Data: udid.php?udid=00008140-000A64361E12801C&product=iPhone17%2C1&version=&device_name=&time=2025-06-04+21%3A34%3A12
+--------------------------------------------------
+2025-06-08 18:36:07 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-08 18:36:07 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone15,3</string>
+	<key>UDID</key>
+	<string>00008120-000C69642204201E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-08 18:36:07 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone15,3
+    [UDID] => 00008120-000C69642204201E
+)
+
+--------------------------------------------------
+2025-06-08 18:36:07 | 重定向到
+Data: udid.php?udid=00008120-000C69642204201E&product=iPhone15%2C3&version=&device_name=&time=2025-06-08+18%3A36%3A07
+--------------------------------------------------
+2025-06-10 12:52:56 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-10 12:52:56 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-001124591469801C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-10 12:52:56 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-001124591469801C
+)
+
+--------------------------------------------------
+2025-06-10 12:52:56 | 重定向到
+Data: udid.php?udid=00008140-001124591469801C&product=iPhone17%2C2&version=&device_name=&time=2025-06-10+12%3A52%3A56
+--------------------------------------------------
+2025-06-11 12:24:15 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-11 12:24:15 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone16,1</string>
+	<key>UDID</key>
+	<string>00008130-001A1C693EC1001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-11 12:24:15 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone16,1
+    [UDID] => 00008130-001A1C693EC1001C
+)
+
+--------------------------------------------------
+2025-06-11 12:24:15 | 重定向到
+Data: udid.php?udid=00008130-001A1C693EC1001C&product=iPhone16%2C1&version=&device_name=&time=2025-06-11+12%3A24%3A15
+--------------------------------------------------
+2025-06-11 13:17:17 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-11 13:17:17 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,2</string>
+	<key>UDID</key>
+	<string>00008140-001A1D663C07001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-11 13:17:17 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,2
+    [UDID] => 00008140-001A1D663C07001C
+)
+
+--------------------------------------------------
+2025-06-11 13:17:17 | 重定向到
+Data: udid.php?udid=00008140-001A1D663C07001C&product=iPhone17%2C2&version=&device_name=&time=2025-06-11+13%3A17%3A17
+--------------------------------------------------
+2025-06-15 14:14:12 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-06-15 14:14:12 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone15,3</string>
+	<key>UDID</key>
+	<string>00008120-0014243A3E03C01E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-06-15 14:14:12 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone15,3
+    [UDID] => 00008120-0014243A3E03C01E
+)
+
+--------------------------------------------------
+2025-06-15 14:14:12 | 重定向到
+Data: udid.php?udid=00008120-0014243A3E03C01E&product=iPhone15%2C3&version=&device_name=&time=2025-06-15+14%3A14%3A12
+--------------------------------------------------
+2025-07-10 22:13:26 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-07-10 22:13:26 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone14,7</string>
+	<key>UDID</key>
+	<string>00008110-0016446A3A0A401E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-07-10 22:13:26 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone14,7
+    [UDID] => 00008110-0016446A3A0A401E
+)
+
+--------------------------------------------------
+2025-07-10 22:13:26 | 重定向到
+Data: udid.php?udid=00008110-0016446A3A0A401E&product=iPhone14%2C7&version=&device_name=&time=2025-07-10+22%3A13%3A26
+--------------------------------------------------
+2025-07-10 23:02:49 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-07-10 23:02:49 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone17,3</string>
+	<key>UDID</key>
+	<string>00008140-000C05A41E2B001C</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-07-10 23:02:49 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone17,3
+    [UDID] => 00008140-000C05A41E2B001C
+)
+
+--------------------------------------------------
+2025-07-10 23:02:49 | 重定向到
+Data: udid.php?udid=00008140-000C05A41E2B001C&product=iPhone17%2C3&version=&device_name=&time=2025-07-10+23%3A02%3A49
+--------------------------------------------------
+2025-07-11 15:11:05 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-07-11 15:11:05 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone13,2</string>
+	<key>UDID</key>
+	<string>00008101-001E21062EBA001E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-07-11 15:11:05 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone13,2
+    [UDID] => 00008101-001E21062EBA001E
+)
+
+--------------------------------------------------
+2025-07-11 15:11:05 | 重定向到
+Data: udid.php?udid=00008101-001E21062EBA001E&product=iPhone13%2C2&version=&device_name=&time=2025-07-11+15%3A11%3A05
+--------------------------------------------------
+2025-07-13 18:50:01 | 接收到POST数据
+Data: 
+--------------------------------------------------
+2025-07-13 18:50:01 | XML内容
+Data: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CHALLENGE</key>
+	<string>UDID-Tool</string>
+	<key>PRODUCT</key>
+	<string>iPhone13,4</string>
+	<key>UDID</key>
+	<string>00008101-0002542622B8001E</string>
+</dict>
+</plist>
+--------------------------------------------------
+2025-07-13 18:50:01 | 设备信息
+Data: Array
+(
+    [PRODUCT] => iPhone13,4
+    [UDID] => 00008101-0002542622B8001E
+)
+
+--------------------------------------------------
+2025-07-13 18:50:01 | 重定向到
+Data: udid.php?udid=00008101-0002542622B8001E&product=iPhone13%2C4&version=&device_name=&time=2025-07-13+18%3A50%3A01
+--------------------------------------------------

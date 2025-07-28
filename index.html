@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 基础设置 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="快速获取iOS设备UDID，支持所有iOS设备">
+    <!-- 样式引入 -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>获取设备UDID</title>
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="container">
+        <div class="content">
+            <!-- 页面头部 -->
+            <div class="header">
+                <h1>获取设备UDID</h1>
+                <p class="subtitle">快速获取 iPhone/iPad 设备的唯一识别码</p>
+            </div>
+
+            <!-- 二维码区域 -->
+            <div id="qrcode-section" class="qrcode-section" style="display: none;">
+                <div class="qrcode-wrapper">
+                    <div id="qrcode"></div>
+                    <p class="qrcode-tip">请使用 iPhone/iPad 相机扫码访问</p>
+                </div>
+            </div>
+
+            <!-- 浏览器提示 -->
+            <div class="notice-wrapper" style="display: none;" id="browser-notice">
+                <div class="notice">
+                    <span class="notice-icon">⚠️</span>
+                    <span>请点击右上角菜单，选择"在浏览器打开"</span>
+                </div>
+            </div>
+
+            <!-- 操作步骤说明 -->
+            <div class="instruction-section">
+                <h3>操作步骤</h3>
+                <ol class="steps">
+                    <li>点击下方<strong>获取UDID</strong>按钮，下载描述文件</li>
+                    <li>在弹出的提示中点击<strong>允许</strong></li>
+                    <li>
+                        前往系统<strong>⚙️ 设置</strong>完成配置文件安装
+                    </li>
+                    <div class="highlight">
+                        ⚙️ 设置<span>></span>通用<span>></span><strong>VPN与设备管理</strong><span>></span>安装描述文件
+                    </div>
+                    <li>输入锁屏密码完成安装，即可看到设备UDID</li>
+                </ol>
+            </div>
+
+            <!-- 主操作按钮 -->
+            <a href="udid.mobileconfig" class="primary-btn">
+                开始获取设备UDID
+            </a>
+
+            <!-- 使用提示区域 -->
+            <div class="tips">
+                <h4>温馨提示</h4>
+                <ul>
+                    <li>请使用 Safari 浏览器打开本页面</li>
+                    <li>支持所有 iOS/iPadOS 系统版本</li>
+                    <li>获取完成后可删除描述文件</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入二维码库 -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script>
+        // 检测是否为微信或QQ浏览器
+        function isWeixinOrQQ() {
+            var ua = navigator.userAgent.toLowerCase();
+            return /micromessenger|mqqbrowser|qq/i.test(ua);
+        }
+
+        // 检测是否为移动设备
+        function isMobile() {
+            return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        }
+
+        // 页面加载完成后执行
+        window.addEventListener('load', function() {
+            // 显示浏览器提示
+            if (isWeixinOrQQ()) {
+                document.getElementById('browser-notice').style.display = 'block';
+            }
+
+            // 生成二维码
+            if (!isMobile()) {
+                // 显示二维码
+                var qrcodeSection = document.getElementById('qrcode-section');
+                qrcodeSection.style.display = 'block';
+                
+                // 修改按钮状态
+                var primaryBtn = document.querySelector('.primary-btn');
+                primaryBtn.classList.add('disabled');
+                primaryBtn.href = 'javascript:void(0);';
+                
+                // 确保二维码容器是空的
+                var qrcodeElement = document.getElementById('qrcode');
+                qrcodeElement.innerHTML = '';
+                
+                try {
+                    // 生成二维码
+                    new QRCode(qrcodeElement, {
+                        text: window.location.href,
+                        width: 180,
+                        height: 180,
+                        colorDark: '#000000',
+                        colorLight: '#ffffff',
+                        correctLevel: QRCode.CorrectLevel.H
+                    });
+                } catch (error) {
+                    console.error('生成二维码失败:', error);
+                    qrcodeSection.style.display = 'none';
+                }
+            }
+        });
+    </script>
+</body>
+</html> 

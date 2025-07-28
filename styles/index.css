@@ -1,0 +1,323 @@
+/* 首页特定样式 */
+
+/* 页面头部 */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    font-size: 26px;
+    color: #333;
+    margin: 0;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #666;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* 操作步骤 */
+.instruction-section {
+    background: #f8f9fa;
+    padding: 15px 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #eee;
+}
+
+.instruction-section h3 {
+    margin: 0 0 10px;
+    font-size: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.instruction-section h3::before {
+    content: "📝";
+    font-size: 16px;
+}
+
+.steps {
+    margin: 0;
+    padding-left: 16px;
+    counter-reset: step;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps li {
+    margin-bottom: 6px;
+    color: #444;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.steps li::marker {
+    font-weight: 500;
+    color: #444;
+}
+
+.steps li:last-child {
+    margin-bottom: 0;
+}
+
+.steps strong {
+    color: #007AFF;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background: rgba(0,122,255,0.1);
+    margin: 0 1px;
+}
+
+.steps .highlight {
+    display: block;
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    margin: 8px 0;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 340px;
+    text-align: center;
+}
+
+.steps .highlight::-webkit-scrollbar {
+    display: none;
+}
+
+.steps .highlight strong {
+    color: #ff6b6b;
+    background: rgba(255,107,107,0.1);
+}
+
+.steps .highlight span {
+    color: #999;
+    margin: 0 3px;
+}
+
+/* 主操作按钮 */
+.primary-btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    padding: 14px 20px;
+    background: #007AFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.primary-btn[disabled],
+.primary-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+    background: #999;
+}
+
+.primary-btn[disabled]::after,
+.primary-btn.disabled::after {
+    display: none;
+}
+
+.primary-btn::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(45deg);
+    animation: scanLight 2s infinite;
+}
+
+@keyframes scanLight {
+    0% {
+        transform: rotate(45deg) translate(-100%, -100%);
+    }
+    100% {
+        transform: rotate(45deg) translate(100%, 100%);
+    }
+}
+
+.primary-btn:hover {
+    background: #0056b3;
+}
+
+/* 浏览器提示 */
+.notice-wrapper {
+    margin-bottom: 20px;
+}
+
+.notice {
+    background: #fff3cd;
+    color: #856404;
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    border: 1px solid #ffeeba;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.notice-icon {
+    font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 使用提示 */
+.tips {
+    background: #f8f9fa;
+    padding: 15px 18px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
+.tips h4 {
+    margin: 0 0 10px;
+    font-size: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.tips h4::before {
+    content: "💡";
+    font-size: 16px;
+}
+
+.tips ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.tips li {
+    margin-bottom: 6px;
+    color: #444;
+    font-size: 14px;
+    position: relative;
+    padding-left: 12px;
+    line-height: 1.5;
+}
+
+.tips li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #666;
+}
+
+.tips li:last-child {
+    margin-bottom: 0;
+}
+
+/* 应式调整 */
+@media (max-width: 480px) {
+    .primary-btn {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .steps .highlight {
+        width: 300px;
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .steps .highlight span {
+        margin: 0 2px;
+    }
+
+    .instruction-section {
+        padding: 12px 15px;
+    }
+
+    .steps li {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
+
+/* 二维码区域 */
+.qrcode-section {
+    text-align: center;
+    margin-bottom: 25px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.qrcode-wrapper {
+    display: inline-block;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#qrcode {
+    display: inline-block;
+}
+
+#qrcode img {
+    display: block;
+    border-radius: 8px;
+}
+
+.qrcode-tip {
+    margin: 12px 0 4px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.qrcode-tip::before {
+    content: "📱";
+    margin-right: 6px;
+}
+
+.qrcode-subtip {
+    margin: 0;
+    color: #666;
+    font-size: 13px;
+} 

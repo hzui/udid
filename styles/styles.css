@@ -1,0 +1,53 @@
+/* 重置和基础样式 */
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:system-ui,-apple-system,sans-serif;background:#f5f5f5;color:#333;line-height:1.6;min-height:100vh;display:flex;align-items:flex-start;justify-content:center;padding-top:20px}
+
+/* 容器样式 */
+.container{width:100%;max-width:500px;background:#fff;padding:16px;border-radius:16px;box-shadow:0 2px 15px rgba(0,0,0,.08);animation:slideIn .5s ease-out;will-change:transform,opacity}
+.result-content{display:flex;flex-direction:column;gap:12px}
+
+/* 成功图标和标题 */
+.result-header{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:4px}
+.success-icon{width:28px;height:28px;background:#4CAF50;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;animation:successAnimation .6s cubic-bezier(.68,-.55,.265,1.55);will-change:transform,opacity}
+h2{color:#333;margin:0;font-size:18px;font-weight:600;animation:fadeIn .5s ease-out .3s both}
+
+/* 设备信息 */
+.device-info{background:#f8f9fa;padding:16px;border-radius:12px;margin:0;animation:fadeIn .5s ease-out .4s both}
+.device-info p{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px dashed #e0e0e0}
+.device-info p:last-child{border-bottom:none;padding-bottom:0}
+.device-info strong{color:#666;font-weight:500}
+
+/* UDID 部分 */
+.udid-section{background:#f8f9fa;padding:16px;border-radius:12px;animation:fadeIn .5s ease-out .5s both}
+.udid-section h3{margin:0 0 8px;font-size:15px;color:#666;font-weight:500;text-align:center}
+.udid-wrapper{position:relative}
+.udid{background:#fff;padding:12px 16px;border-radius:8px;font-family:SFMono-Regular,Consolas,monospace;font-size:14px;line-height:1.4;white-space:nowrap;overflow-x:auto;text-align:center;border:1px solid #eee;cursor:pointer;transition:all .2s ease;-webkit-user-select:all;user-select:all;color:#333;scrollbar-width:none;-ms-overflow-style:none}
+.udid::-webkit-scrollbar{display:none}
+.udid:hover{border-color:#007AFF;background:#f8f9fa}
+
+/* 按钮组 */
+.button-group{display:flex;gap:12px;margin-top:8px;animation:fadeIn .5s ease-out .7s both}
+.copy-btn{flex:1;padding:12px;border:none;border-radius:8px;background:#007AFF;color:#fff;font-size:15px;font-weight:500;cursor:pointer;transition:transform .2s ease,background-color .2s ease;will-change:transform}
+.copy-btn:hover{background:#0066CC;transform:translateY(-1px)}
+.copy-btn.back-btn{background:#f8f9fa;color:#333}
+.copy-btn.back-btn:hover{background:#e9ecef}
+
+/* Toast 提示 */
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:rgba(33,33,33,.95);color:#fff;padding:14px 24px 14px 54px;border-radius:12px;font-size:15px;font-weight:500;box-shadow:0 8px 24px rgba(0,0,0,.12);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;align-items:center;animation:toastSlideUp .3s ease forwards;z-index:1000;min-width:240px;border:1px solid rgba(255,255,255,.1);will-change:transform,opacity}
+.toast::before{content:"";width:20px;height:20px;background:#4CAF50;border-radius:50%;position:absolute;left:24px;top:50%;transform:translateY(-50%)}
+.toast::after{content:"✓";position:absolute;left:30px;top:50%;transform:translateY(-50%);color:#fff;font-size:12px;font-weight:700}
+
+/* 动画 */
+@keyframes successAnimation{0%{transform:scale(.3);opacity:0}50%{transform:scale(1.2)}100%{transform:scale(1);opacity:1}}
+@keyframes slideIn{0%{transform:translateY(20px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes toastSlideUp{0%{transform:translate(-50%,100%);opacity:0}100%{transform:translate(-50%,0);opacity:1}}
+@keyframes toastSlideDown{0%{transform:translate(-50%,0);opacity:1}100%{transform:translate(-50%,100%);opacity:0}}
+
+/* 响应式 */
+@media (max-width:480px){
+    body{padding:20px 16px}
+    .container{padding:16px}
+    .button-group{flex-direction:column}
+    .device-info,.udid-section{padding:12px}
+} 
