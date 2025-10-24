@@ -12,6 +12,8 @@
             <array>
                 <string>UDID</string>
                 <string>PRODUCT</string>
+                <string>VERSION</string>
+                <string>DEVICE_NAME</string>
             </array>
             <key>PayloadType</key>
             <string>Profile Service</string>
@@ -29,7 +31,7 @@
         <key>PayloadType</key>
         <string>Profile Service</string>
         <key>PayloadUUID</key>
-        <string>8E2345E9-F8C3-4B6A-B52E-B3F9F4F29FD5</string>
+        <string>70BD02CE-37BD-487E-8F16-86D7388EDA46</string>
         <key>PayloadIdentifier</key>
         <string>com.butqq.udid.profile</string>
         <key>PayloadVersion</key>

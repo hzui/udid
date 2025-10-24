@@ -24,8 +24,10 @@ if (empty($udid)) {
     exit;
 }
 
-// 快速处理设备信息
+// 获取设备信息
 $product_name = $_GET['product'] ?? '';
+$device_name = $_GET['device_name'] ?? '';
+$version = $_GET['version'] ?? '';
 $device_map = [
     // iPhone 16 系列
     'iPhone16,3' => 'iPhone 16',
@@ -117,13 +119,24 @@ $device_map = [
 ];
 
 // 格式化设备型号显示
+$display_name = '';
 if (!empty($product_name)) {
     // 提取设备标识符（例如：iPhone15,4）
     if (preg_match('/^(iPhone|iPad)(\d+,\d+)/', $product_name, $matches)) {
         $device_identifier = $matches[1] . $matches[2];
         // 查找映射表中的设备名称
-        $product_name = $device_map[$device_identifier] ?? $product_name;
+        $display_name = $device_map[$device_identifier] ?? $product_name;
+    } else {
+        $display_name = $product_name;
     }
+} else if (!empty($device_name)) {
+    $display_name = $device_name;
+}
+
+// 组合显示设备型号和系统版本
+$device_info = $display_name;
+if (!empty($version)) {
+    $device_info .= ' ' . $version;
 }
 
 // 格式化时间
@@ -149,7 +162,7 @@ ob_start("ob_gzhandler");
                 <h2>获取成功！</h2>
             </div>
             <div class="device-info">
-                <p><strong>设备型号：</strong><span><?php echo htmlspecialchars($product_name, ENT_QUOTES, 'UTF-8'); ?></span></p>
+                <p><strong>设备信息：</strong><span><?php echo htmlspecialchars($device_info, ENT_QUOTES, 'UTF-8'); ?></span></p>
                 <p><strong>获取时间：</strong><span><?php echo $time; ?></span></p>
             </div>
             <div class="udid-section">
